@@ -27,6 +27,7 @@
 		09D79CBA1FB8A6360086ABF6 /* libusb-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09D79CB51FB0DD7F0086ABF6 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		09D79CBC1FB8A64B0086ABF6 /* libusb-0.1.4.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09D79CBB1FB8A6490086ABF6 /* libusb-0.1.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		303568C11FA7DEF400803BEF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 303568C01FA7DEF400803BEF /* Constants.m */; };
+		3B9C552C2133E88D00D83AC0 /* libftdi.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B9C552B2133E88D00D83AC0 /* libftdi.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 			files = (
 				09D79CBA1FB8A6360086ABF6 /* libusb-1.0.0.dylib in CopyFiles */,
 				09D79CBC1FB8A64B0086ABF6 /* libusb-0.1.4.dylib in CopyFiles */,
+				3B9C552C2133E88D00D83AC0 /* libftdi.1.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +75,7 @@
 		09D79CBB1FB8A6490086ABF6 /* libusb-0.1.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-0.1.4.dylib"; sourceTree = SOURCE_ROOT; };
 		303568C01FA7DEF400803BEF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		303568C21FA7DF0900803BEF /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3B9C552B2133E88D00D83AC0 /* libftdi.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libftdi.1.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,7 @@
 		092963FE1F5C8B2C004F2D3F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3B9C552B2133E88D00D83AC0 /* libftdi.1.dylib */,
 				09D79CB51FB0DD7F0086ABF6 /* libusb-1.0.0.dylib */,
 				09D79CBB1FB8A6490086ABF6 /* libusb-0.1.4.dylib */,
 				09522BBA1F6216BA00AEBC5E /* avrdude.conf */,
